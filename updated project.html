@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Varshitha Portfolio </title>
+    <link rel="stylesheet" href="mystyle1.css">
+</head>
+<body>
+      <header class="navbar">
+        <button class="Hamburger" id="Hamburger" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
+
+    <nav class="nav" id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav><br>
+     <section id="home">
+        <div class="container">
+            <div id="home-section" class="content-section">
+                <main class="hero">
+                    <div class="hero-content">
+                    
+                        <p class="wishes">Hey, I'm G.V.L.K.VARSHITHA👋</p><br>
+                        <h1>
+                            <span class="purple">Frontend</span>
+                            Developer
+                        </h1><br>
+                        <p class="line">
+                            I'm a frontend developer based in Ongole, I'll help you build beautiful websites your users will love.
+                        </p>
+                    </div>
+                   <div class="image-container">
+                        <img src="VARSHITHA.png" alt="G.VARSHITHA" class="image">
+                        <div class="circle-border"></div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div id="about-section" class="content-section">
+                <main class="about-content">
+                   <div class="search">
+                        <div class="bar-container">
+                            <input type="text" placeholder="About" class="search-input">
+                            <button class="search-button">
+                                <i class="search"><img src="icon.png" height="30px" width="30px"></i> 
+                            </button>
+                        </div>
+                    </div>
+                    <h1 class="title">
+                        <span class="purple">|</span>About me.
+                    </h1><br>
+                    <p class="description">
+                        Developing beautiful and functional websites is what I love doing, and that's why I give my all in every new challenge.
+                        I bring a proactive attitude and a detail-oriented approach to every project, ensuring top-tier user experiences.
+                    </p>
+                   <br>
+                    <div class="me">
+                        <div class="subject">
+                            <h2>My Stack.</h2><br>
+                            <div class="tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3 / SASS</span>
+                                <span class="tag">JavaScript (ES6+)</span>
+                                <span class="tag">React.js</span>
+                            </div>
+                        </div>
+                        <div class="special-place">
+                            <h2>My Special Place.</h2>
+                            <div class="box">
+                                 <img src="place.png" >
+                                
+                                </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+     <section id="projects">
+        <div class="container">
+            <div class="content-section">
+               <div class="search">
+                        <div class="bar-container">
+                            <input type="text" placeholder="Projects" class="search-input">
+                            <button class="search-button">
+                                <i class="search"><img src="icon.png" height="30px" width="30px"></i> 
+                            </button>
+                        </div>
+                    </div>
+                <h1>Projects</h1>
+              
+        <div class="content">
+            <div class="menu">
+                <a href="#apple" class="name active" data-target="apple-details">SpyproSolutions</a>
+                <a href="#bananana" class="name" data-target="bananana-details">SKILLDZIRE</a> 
+                
+            </div>
+
+            <div class="details">
+                <div class="content">
+                    <h1>Experience.</h1>
+                </div>
+
+                <div id="apple-details" class="detail active">
+                    <p class="titles">Spam mail detection</p>
+                    <span class="job">May 2023- June 2023</span>
+                    <div class="description">
+                        <ul>
+                            <li>Done a Project on Spam mail detection using Python programming by using Random Forest Algorithm</li>
+                            <li>It is very useful project every one most know the knowledge of the Spam mail . </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="bananana-details" class="detail">
+                    <p class="titles">Credit Card Fruad Detection</p>
+                    <span class="job">May 2024 - July 2024</span>
+                    <div class="description">
+                        <ul>
+                            <li>Done a Project on Credit Card Fruad Detection using Python programming by using Cross Validation Algorithm.</li>
+                            <li>During the development of this project, I gained a wealth of knowledge about these languages.</li>
+                            <li>We undertook this project to increase public awareness and caution them against new mobile messages.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+    </section>
+    <section id="skills">
+        </section>
+         <section id="contact">
+        <div class="form">
+            <div class="search">
+                        <div class="bar-container">
+                            <input type="text" placeholder="Contact" class="search-input">
+                            <button class="search-button">
+                                <i class="search"><img src="icon.png" height="30px" width="30px"></i> 
+                            </button>
+                        </div>
+                    </div>
+            <h2>Information recording me.</h2>
+            <form id="contactForm" action="#" method="POST">
+                
+                <div class="forms">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="forms">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="forms">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+
+            <div id="form-message"></div>
+        </div>
+    </section>
+     <footer>
+          Varshitha Portfolio.
+    </footer>
+    
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('Hamburger');
+            const navMenu = document.getElementById('nav');
+            const navLinks = document.querySelectorAll('.nav a');
+
+            menuToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                menuToggle.classList.toggle('is-open'); 
+            });
+
+           
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                         menuToggle.classList.remove('is-open');
+                    }
+                   
+                });
+            });
+
+        });
+         document.addEventListener('DOMContentLoaded', function() {
+            const companyNames = document.querySelectorAll('.name');
+            const detailPanels = document.querySelectorAll('.detail');
+            function switchExperience(targetId) {
+                
+                companyNames.forEach(name => {
+                    name.classList.remove('active');
+                });
+
+                detailPanels.forEach(panel => {
+                    panel.classList.remove('active');
+                });
+
+                const activeName = document.querySelector(`.name[data-target="${targetId}"]`);
+                if (activeName) {
+                    activeName.classList.add('active');
+                }
+                const activePanel = document.getElementById(targetId);
+                if (activePanel) {
+                    activePanel.classList.add('active');
+                }
+            }
+            companyNames.forEach(nameLink => {
+                nameLink.addEventListener('click', function(e) {
+                    e.preventDefault(); 
+                    const targetId = this.getAttribute('data-target');
+                    switchExperience(targetId);
+                });
+            });
+        });
+         document.addEventListener('DOMContentLoaded', function() {
+    
+    const mySkills = {
+        'Frontend Development': [
+            'HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js'
+        ],
+        'Backend Development': [
+            'Python', 'Machine Learning'
+        ],
+       'Soft Skills':[
+        'Effective communication','Collaboration'
+       ]
+    };
+     
+    const skillsSection = document.getElementById('skills');
+
+    const containerDiv = document.createElement('div');
+    containerDiv.classList.add('skills-con');
+
+    const mainTitle = document.createElement('h2');
+    mainTitle.textContent = 'Skills';
+    containerDiv.appendChild(mainTitle);
+
+    const gridDiv = document.createElement('div');
+    gridDiv.classList.add('sk-grid');
+
+    for (const category in mySkills) {
+        if (mySkills.hasOwnProperty(category)) {
+            const categoryHeader = document.createElement('h3');
+            categoryHeader.classList.add('sk-category');
+            categoryHeader.textContent = category;
+            gridDiv.appendChild(categoryHeader);
+            mySkills[category].forEach(skill => {
+                const skillTag = document.createElement('span');
+                skillTag.classList.add('sk-tag');
+                skillTag.textContent = skill;
+                
+                gridDiv.appendChild(skillTag);
+            });
+        }
+    }
+
+    containerDiv.appendChild(gridDiv);
+
+    skillsSection.appendChild(containerDiv);
+});
+     $(document).ready(function() {
+   
+            $("#contactForm").on('submit', function(event) {
+                event.preventDefault(); 
+
+                const form = $(this);
+                const formData = form.serialize(); 
+                const formMessage = $("#form-message");
+                formMessage.removeClass('success error').hide();
+                $("#submit-btn").prop('disabled', true).text('Sending...'); 
+
+                console.log("Form Data to be sent:", formData);
+                
+                setTimeout(function() {
+                    formMessage.addClass('success').text('Thank you! Your message has been sent.').fadeIn(500);
+                    form[0].reset(); 
+                    $("#submit-btn").prop('disabled', false).text('Send Message'); 
+                }, 1000);
+
+            });
+        });  
+    </script>
+</body>
+</html>
